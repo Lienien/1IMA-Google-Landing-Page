@@ -110,11 +110,19 @@ button:hover {
     box-shadow: 0 0 10px 0 gainsboro;
 }
 
+.english {
+    color: blue;
+}
+
 footer {
     background-color: #F2F2F2;
     position: fixed;
     bottom: 0;
     width: 100vw;
+}
+
+.footer-top {
+    border-bottom: 1px solid lightgray;
 }
 
 #footer-left {
