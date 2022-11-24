@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 0.9em;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+ul > a, ul > img {
+    padding: 0 8px;
+}
+
+.header-img:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.sign-in {
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid #4285f4;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 70px;
+    height: 25px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+h1 {
+    font-family: Product sans;
+    font-size: 5.5em;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 38px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+}
+
+.input-container:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+.input-container > input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.button-container {
+    padding-top: 53px;
+}
+
+button {
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    padding: 0 20px;
+    margin: 0 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+footer {
+    background-color: #F2F2F2;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+#footer-left {
+    display: flex;
+    justify-self: start;
+    padding-left: 20px;
+    align-items: center;
+}
+
+#footer-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+}
